@@ -44,9 +44,16 @@ class Alarm():
     def update(self,attr_index:int):
         #更新部分元素之后，返回新对象
         parent = self.Trees[attr_index].to_parent(self._attrs[attr_index])
+        if __debug__:
+            print("更新后父类为：",parent)
         attrs = [self._attrs[i] if i !=attr_index else parent for i in range(len(self))]
+        if __debug__:
+            print("update 返回的对象为：",self.__class__(*attrs))
+        #  self.__class__(*attrs) 返回对象
 
+        #  self._attrs 返回tuple
         return self.__class__(*attrs)
+
 
 
     def __eq__(self, other):
@@ -80,6 +87,6 @@ class Alarm():
     def __hash__(self):
         return hash( "".join( i for i in self._attrs))
 
-class Alarm_Test(Alarm):
-    """示范"""
-    Trees =[AttributeTree("测试属性",elements,relations)]
+# class Alarm_Test(Alarm):
+#     """示范"""
+#     Trees =[AttributeTree("测试属性",elements,relations)]

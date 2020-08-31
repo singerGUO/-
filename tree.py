@@ -41,15 +41,18 @@ class AttributeTree():
                 for c in self.relations[element]:
                     queue.put(c)
 
-        print(sort)
+        #print(sort)
         self.priority=sort
 
     def max_key(self,keys):
         """寻找最大键"""
         keys= list(keys)
         max= keys[0]
+        
         max_priority=self.priority[max]
+        #print("priority: ", self.priority)
         for key in keys:
+           
             if self.priority[key] > max_priority:
                 max=key
                 max_priority = self.priority[key]
@@ -57,11 +60,15 @@ class AttributeTree():
 
     def _create_dataframe(self):
         """构建矩阵 dataframe"""
+      
         arr = np.zeros((len(self.elements), len(self.elements)))
         for p in self.relations:
             for c in self.relations[p]:
                 arr[self.elements.index(p), self.elements.index(c)] = 1
-        return pd.DataFrame(arr, index=self.elements, columns=self.elements)
+        df=pd.DataFrame(arr, index=self.elements, columns=self.elements)
+        #print(df,"\n\n")
+        
+        return df
 
     def search_children(self,p:str,c:str,dis=1)->int:
         #直系距离

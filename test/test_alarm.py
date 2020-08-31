@@ -1,4 +1,7 @@
 #coding=utf-8
+
+import sys
+sys.path.append('/home/guozhenghao/clustering/log')
 from alarm import Alarm
 from tree import AttributeTree
 
@@ -54,3 +57,6 @@ class TestAlarm():
         a2 = Animal("爬行类","撕")
         a3 = Animal("爬行类","咬")
         assert a3 == a2.update(1)
+    
+# test=TestAlarm()
+# test.test_update()

@@ -1,0 +1,260 @@
+我的告警 8-28 11:37:14
+告警分派:
+严重 天网监控系统
+告警级别:
+严重 
+Note:
+可用内存低于总内存的8% 
+最近3个值为:
+3.14 , 1.98 , 6.74 
+机器ips:
+内网:10.69.12.54  BGP:129.211.145.157   
+机器业务:
+虎牙运维平台->监控平台->openfalcon 
+机房:
+虎牙-腾讯云上海-04 
+tags:
+hostip=10.69.12.54 
+Timestamp:
+2020-08-28 11:37:00 
+研发负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+运维负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+https://skynet-jingwei.huya.com/base.html#/180164264/services/mem-host 
+https://skynet-jingwei-mobile.huya.com/base.html#/hostDetail?hostID=180164264&section=mem-host 
+
+
+【此告警需要处理，请点击下方我的告警或登录告警平台进行操作】
+
+我的告警 8-28 11:45:14
+告警分派:
+严重 天网监控系统
+告警级别:
+严重 
+Note:
+可用内存低于总内存的8% 
+最近3个值为:
+5.28 , 4.32 , 2.83 
+机器ips:
+内网:10.69.12.116  BGP:212.129.146.206   
+机器业务:
+虎牙运维平台->监控平台->openfalcon 
+机房:
+虎牙-腾讯云上海-04 
+tags:
+hostip=10.69.12.116 
+Timestamp:
+2020-08-28 11:45:00 
+研发负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+运维负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+https://skynet-jingwei.huya.com/base.html#/180164266/services/mem-host 
+https://skynet-jingwei-mobile.huya.com/base.html#/hostDetail?hostID=180164266&section=mem-host 
+
+
+【此告警需要处理，请点击下方我的告警或登录告警平台进行操作】
+
+我的告警 8-28 12:20:17
+告警分派:
+严重 天网监控系统
+告警级别:
+严重 
+Note:
+可用内存低于总内存的8% 
+最近3个值为:
+5.75 , 4.43 , 3.21 
+机器ips:
+内网:10.69.12.54  BGP:129.211.145.157   
+机器业务:
+虎牙运维平台->监控平台->openfalcon 
+机房:
+虎牙-腾讯云上海-04 
+tags:
+hostip=10.69.12.54 
+Timestamp:
+2020-08-28 12:20:00 
+研发负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+运维负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+https://skynet-jingwei.huya.com/base.html#/180164264/services/mem-host 
+https://skynet-jingwei-mobile.huya.com/base.html#/hostDetail?hostID=180164264&section=mem-host 
+
+
+【此告警需要处理，请点击下方我的告警或登录告警平台进行操作】
+
+我的告警 8-28 14:00:15
+告警分派:
+严重 天网监控系统
+告警级别:
+严重 
+Note:
+可用内存低于总内存的8% 
+最近3个值为:
+7.49  6.66  7.86 
+机器ips:
+内网:10.69.12.54  BGP: 129.211.145.157   
+机器业务:
+虎牙运维平台->监控平台->openfalcon 
+机房:
+虎牙-腾讯云上海-04 
+tags:
+hostip=10.69.12.54 
+Timestamp:
+2020-08-28 14:00:00 
+研发负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+运维负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+https://skynet-jingwei.huya.com/base.html#/180164264/services/mem-host 
+https://skynet-jingwei-mobile.huya.com/base.html#/hostDetail?hostID=180164264&section=mem-host 
+
+
+【此告警需要处理，请点击下方我的告警或登录告警平台进行操作】
+
+我的告警 8-28 14:48:14
+告警分派:
+严重 天网监控系统
+告警级别:
+严重 
+Note:
+可用内存低于总内存的8% 
+最近3个值为:
+5.60 , 4.89 , 5.69 
+机器ips:
+内网:10.69.12.54  BGP:129.211.145.157   
+机器业务:
+虎牙运维平台->监控平台->openfalcon 
+机房:
+虎牙-腾讯云上海-04 
+tags:
+hostip=10.69.12.54 
+Timestamp:
+2020-08-28 14:48:00 
+研发负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+运维负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+https://skynet-jingwei.huya.com/base.html#/180164264/services/mem-host 
+https://skynet-jingwei-mobile.huya.com/base.html#/hostDetail?hostID=180164264&section=mem-host 
+
+
+【此告警需要处理，请点击下方我的告警或登录告警平台进行操作】
+
+我的告警 8-28 14:56:14
+告警分派:
+严重 天网监控系统
+告警级别:
+严重 
+Note:
+可用内存低于总内存的8% 
+最近3个值为:
+7.33 , 6.28 , 7.45 
+机器ips:
+内网:10.69.12.54  BGP:129.211.145.157   
+机器业务:
+虎牙运维平台->监控平台->openfalcon 
+机房:
+虎牙-腾讯云上海-04 
+tags:
+hostip=10.69.12.54 
+Timestamp:
+2020-08-28 14:56:00 
+研发负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+运维负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+https://skynet-jingwei.huya.com/base.html#/180164264/services/mem-host 
+https://skynet-jingwei-mobile.huya.com/base.html#/hostDetail?hostID=180164264&section=mem-host 
+
+
+【此告警需要处理，请点击下方我的告警或登录告警平台进行操作】
+
+我的告警 8-28 15:06:12
+告警分派:
+严重 天网监控系统
+告警级别:
+严重 
+Note:
+可用内存低于总内存的8% 
+最近3个值为:
+5.50 , 4.71 , 5.74 
+机器ips:
+内网:10.69.12.54  BGP:129.211.145.157   
+机器业务:
+虎牙运维平台->监控平台->openfalcon 
+机房:
+虎牙-腾讯云上海-04 
+tags:
+hostip=10.69.12.54 
+Timestamp:
+2020-08-28 15:06:00 
+研发负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+运维负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+https://skynet-jingwei.huya.com/base.html#/180164264/services/mem-host 
+https://skynet-jingwei-mobile.huya.com/base.html#/hostDetail?hostID=180164264&section=mem-host 
+
+
+【此告警需要处理，请点击下方我的告警或登录告警平台进行操作】
+
+我的告警 8-28 15:32:13
+告警分派:
+严重 天网监控系统
+告警级别:
+严重 
+Note:
+可用内存低于总内存的8% 
+最近3个值为:
+5.68 , 4.35 , 5.71 
+机器ips:
+内网:10.69.12.54  BGP:129.211.145.157   
+机器业务:
+虎牙运维平台->监控平台->openfalcon 
+机房:
+虎牙-腾讯云上海-04 
+tags:
+hostip=10.69.12.54 
+Timestamp:
+2020-08-28 15:32:00 
+研发负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+运维负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+https://skynet-jingwei.huya.com/base.html#/180164264/services/mem-host 
+https://skynet-jingwei-mobile.huya.com/base.html#/hostDetail?hostID=180164264&section=mem-host 
+
+
+【此告警需要处理，请点击下方我的告警或登录告警平台进行操作】
+
+我的告警 8-28 16:31:14
+告警分派:
+严重 天网监控系统
+告警级别:
+严重 
+Note:
+可用内存低于总内存的8% 
+最近3个值为:
+5.13 , 6.47 , 5.07 
+机器ips:
+内网:10.69.12.54  BGP:129.211.145.157   
+机器业务:
+虎牙运维平台->监控平台->openfalcon 
+机房:
+虎牙-腾讯云上海-04 
+tags:
+hostip=10.69.12.54 
+Timestamp:
+2020-08-28 16:31:00 
+研发负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+运维负责人:
+李旦,林东煜,庄嘉欣,李文涛,陈键冬,杨皓 
+https://skynet-jingwei.huya.com/base.html#/180164264/services/mem-host 
+https://skynet-jingwei-mobile.huya.com/base.html#/hostDetail?hostID=180164264&section=mem-host 
+
+
+【此告警需要处理，请点击下方我的告警或登录告警平台进行操作】

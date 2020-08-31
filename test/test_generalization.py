@@ -1,8 +1,16 @@
 #coding=utf-8
 
+
+#from alarm import Alarm
+
+import sys
+sys.path.append('/home/guozhenghao/clustering/log')
+
 from alarm import Alarm
 from tree import AttributeTree
 from generalization import abstract_info
+from text_reading import TestReading
+
 
 #归属关系
 elements_1 = ["自然界","动物","植物","爬行类","哺乳类","鳄鱼","蜗牛","猪","狗","土狗","拉布拉多"]
@@ -23,12 +31,25 @@ class Animal(Alarm):
 
 class TestAbstraction():
     #测试信息抽取
+    #@staticmethod
+    def method():
+        return TestReading.alarm_list
+
+
+    
+
     def test_abstract_info(self):
         alarm_set = [Animal("爬行类","撕"),Animal("爬行类","撕"),Animal("爬行类","撕"),Animal("爬行类","撕"),Animal("爬行类","撕")]
         print(abstract_info(alarm_set,mini_size=3))  #nimal("爬行类","撕")
-
+       
     def test_abstract_info2(self):
 
-        alarm_set = [Animal("爬行类","咬"),Animal("爬行类","撕"),Animal("爬行类","撕"),Animal("爬行类","撕"),Animal("爬行类","撕")]
-        print(abstract_info(alarm_set,mini_size=4))  #.[(Animal(爬行类,撕), 4)]
-        print(abstract_info(alarm_set, mini_size=5))   #[(Animal(爬行类,咬), 5)]
+        alarm_set = [Animal("爬行类","吞"),Animal("爬行类","群挑"),Animal("爬行类","咬"),Animal("爬行类","撕"),Animal("爬行类","咬"),Animal("爬行类","撕"),Animal("爬行类","撕"),Animal("爬行类","撕"),Animal("哺乳类","撕"),Animal("爬行类","撕"),Animal("爬行类","撕"),Animal("哺乳类","撕"),Animal("爬行类","撕"),Animal("爬行类","撕"),Animal("哺乳类","撕")]
+        size=len(alarm_set)//5
+        #print(abstract_info(alarm_set,mini_size=4))  #.[(Animal(爬行类,撕), 4)]
+        print("聚类后的告警：",abstract_info(alarm_set, mini_size=3))   #[(Animal(爬行类,咬), 5)]
+        
+a= TestAbstraction()
+#a.test_abstract_info()
+a.test_abstract_info2() 
+#print(TestAbstraction.method())       
